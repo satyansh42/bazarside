@@ -25,16 +25,14 @@
   
   body{
     background-image: url('img1.svg');
-    /* width: fit-content; */
-    /* height: 100%; */
-    overflow: hidden;
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .sign {
-    /* width: 100%; */
+    
     width: 500px;
     align-items: center;
     text-align: center;
