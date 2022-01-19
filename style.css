@@ -88,9 +88,25 @@
           background-image: fixed;
           background-size: 2500px;
       }
+      .sign{
+        width: 400px;
+      }
+  }
+  @media screen and (max-width: 400px){
+    .sign{
+      width: 350px;
+    }
+  }
+  @media screen and (max-width: 300px){
+    .sign{
+      width: 280px;
+    }
   }
   @media screen and (max-width: 285px){
       body{
           background-size: 4000px;
+      }
+      .sign{
+        width: 250px;
       }
   }
